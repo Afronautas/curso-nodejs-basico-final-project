@@ -1,0 +1,23 @@
+###
+POST http://localhost:3001/products/
+Content-Type: application/json
+
+{
+    "name": "Gasosa 2",
+    "price": 200,
+    "description": "Blue 200ml"
+}
+
+###
+GET http://localhost:3001/products/
+
+
+###
+PATCH http://localhost:3001/products/dd991e8a-7e40-4066-92ee-f45f3f627a90
+Content-Type: application/json
+
+{
+    "name": "Gasosa 2 Actualizada",
+    "price": 200,
+    "description": "Bolacha gostosa"
+}
